@@ -1,4 +1,4 @@
-# A Blog example using Next.js and DatoCMS
+# A Blog example using Next.js and DatoCMS with Typescript and full typings
 
 This example showcases a Next.js Blog using [DatoCMS](https://www.datocms.com/) as the data source. It fully supports [Preview Mode](https://www.datocms.com/docs/next-js/setting-up-next-js-preview-mode) with [DatoCMS real-time updates](https://www.datocms.com/docs/next-js/real-time-updates).
 
@@ -10,7 +10,7 @@ The purpose of this repo is to have a quick start reference that can be set up w
 
 Have a look at the end result live:
 
-### [https://nextjs-demo-bay.vercel.app/](https://nextjs-demo-bay.vercel.app/)
+### [https://next-datocms-ts.vercel.app/](https://next-datocms-ts.vercel.app/)
 
 ## How to use
 

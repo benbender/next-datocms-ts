@@ -9,3 +9,4 @@ src/lib/graphql
 schema.graphql
 public/sitemap.xml
 .DS_STORE
+.vercel
