@@ -5,7 +5,7 @@ node_modules/
 out/
 yarn-error.log
 .tsbuildinfo
-src/lib/graphql
+src/lib/graphql.ts
 schema.graphql
 public/sitemap.xml
 .DS_STORE
