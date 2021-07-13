@@ -22,7 +22,7 @@ Have a look at the end result live:
 
 3. Let DatoCMS set everything up for you clicking this button:
 
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms/nextjs-demo)
+[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=benbender/next-datocms-ts)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fbenbender%2Fnext-datocms-ts&env=NEXT_CMS_DATOCMS_API_TOKEN&envDescription=NEXT_CMS_DATOCMS_API_TOKEN&envLink=https%3A%2F%2Fwww.datocms.com%2Fdocs%2Fcontent-management-api%2Fsetting-the-environment)
 
 ### Local setup
