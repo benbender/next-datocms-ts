@@ -1,0 +1,61 @@
+{
+  "name": "next-datocms-ts",
+  "version": "2.0.0",
+  "license": "UNLICENSED",
+  "author": "Benjamin Bender <bb@codepoet.de>",
+  "homepage": "https://github.com/benbender/next-datocms-ts",
+  "description": "NextJS with DatoCMS, TailwindCSS, GraphQL-Codegen, Typescript and perfect typings",
+  "bugs": "https://github.com/benbender/next-datocms-ts/issues",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "build:static": "next build && next export",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "graphql-codegen",
+    "export": "next build && next export",
+    "codegen": "graphql-codegen"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "date-fns": "^2",
+    "graphql-request": "^3.4",
+    "next": "^11",
+    "react": "^17",
+    "react-datocms": "^1",
+    "react-dom": "^17",
+    "vercel": "^23.0.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1",
+    "@graphql-codegen/typescript": "^1",
+    "@graphql-codegen/typescript-graphql-request": "^3",
+    "@graphql-codegen/typescript-operations": "^1",
+    "@tailwindcss/typography": "^0.4",
+    "autoprefixer": "^10",
+    "eslint": "^7",
+    "eslint-config-next": "^11",
+    "eslint-config-prettier": "^8",
+    "graphql": "^15",
+    "next-sitemap": "^1.6.133",
+    "postcss": "^8",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2",
+    "typescript": "^4.3"
+  },
+  "postcss": {
+    "plugins": [
+      "tailwindcss/nesting",
+      "tailwindcss",
+      "autoprefixer"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "next",
+      "next/core-web-vitals",
+      "prettier"
+    ]
+  }
+}

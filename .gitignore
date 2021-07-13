@@ -1,0 +1,11 @@
+.env
+.now
+.next
+node_modules/
+out/
+yarn-error.log
+.tsbuildinfo
+src/lib/graphql
+schema.graphql
+public/sitemap.xml
+.DS_STORE

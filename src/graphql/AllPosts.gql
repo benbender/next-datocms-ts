@@ -1,0 +1,32 @@
+#import "./metaTagsFragment.gql"
+#import "./responsiveImageFragment.gql"
+
+query AllPosts {
+  site: _site {
+    favicon: faviconMetaTags {
+      ...metaTagsFragment
+    }
+  }
+  blog {
+    seo: _seoMetaTags {
+      ...metaTagsFragment
+    }
+  }
+  allPosts(orderBy: date_DESC, first: 20) {
+    title
+    slug
+    excerpt
+    date
+    coverImage {
+      responsiveImage(imgixParams: { fm: jpg, fit: crop, w: 2000, h: 1000 }) {
+        ...responsiveImageFragment
+      }
+    }
+    author {
+      name
+      picture {
+        url(imgixParams: { fm: jpg, fit: crop, w: 100, h: 100, sat: -100 })
+      }
+    }
+  }
+}
